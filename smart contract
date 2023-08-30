@@ -1,11 +1,12 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity 0.8.18;
 
 contract Token {
 
     // public variables here
-    string public tknName="SaurabhCoin";
-    string public tknAbbvr="SCK";
+    string public tknName="PrashCoin";
+    string public tknAbbvr="PCK";
     uint public Supply=0; 
 
     // mapping variable here
