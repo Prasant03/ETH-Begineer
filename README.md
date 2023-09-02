@@ -1,10 +1,25 @@
 
 # University Token (UNI)
-# Simple Overview
-This project implements the University Token (UNI), an ERC-20 compatible token on the Ethereum blockchain. It provides essential functionalities for minting and burning tokens for specific addresses.
+# Project Overview
+Welcome to the repository for the Ethereum beginner module course offered by MetaCrafters. This project serves as a hands-on introduction to Solidity, a programming language for developing smart contracts on the Ethereum blockchain. The primary components of this project include a Token Contract that defines the behavior of the University Token (UNI).
 
 # Description
 This project serves as an educational introduction to Solidity, a programming language for creating smart contracts on the Ethereum blockchain. It includes a Solidity smart contract that defines the behavior of the UNI token, allowing authorized addresses to mint new UNI tokens and burn existing ones, thus managing the token supply.
+
+
+
+
+ # Token Details
+## Token Name: UNIVERSITY
+## Token Abbreviation: UNI
+## Total Supply: 0 (Increases with minting)
+ # Functions
+Minting Tokens
+The mint function allows authorized addresses to mint new UNI tokens for a specified address, increasing the total supply.
+
+Burning Tokens
+The burn function allows authorized addresses to burn (remove) UNI tokens from a specified address, decreasing the total supply.
+
 
 # Getting Started
 Installing
