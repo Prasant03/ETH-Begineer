@@ -1,25 +1,31 @@
-University Token (UNI) - README
-This contract implements the University Token (UNI), an ERC-20 compatible token on the Ethereum blockchain. It provides basic functionalities to mint and burn tokens for specific addresses.
-Token Creation Solidity Project
-Welcome to the repository for the Ethereum beginner module course offered by MetaCrafters. In this repository, you will find the code for a basic Solidity project that focuses on creating a token. The project covers the implementation of functions to mint new tokens and burn existing tokens, allowing the user or owner to manage the token supply.
 
-Project Overview
-This project serves as a hands-on introduction to Solidity, a programming language for developing smart contracts on the Ethereum blockchain. The primary components of this project include:
+#University Token (UNI)
+#Simple Overview
+This project implements the University Token (UNI), an ERC-20 compatible token on the Ethereum blockchain. It provides essential functionalities for minting and burning tokens for specific addresses.
 
-Token Contract: A Solidity smart contract that defines the behavior of the token, including minting and burning tokens.
+#Description
+This project serves as an educational introduction to Solidity, a programming language for creating smart contracts on the Ethereum blockchain. It includes a Solidity smart contract that defines the behavior of the UNI token, allowing authorized addresses to mint new UNI tokens and burn existing ones, thus managing the token supply.
 
+#Getting Started
+Installing
+To use this project:
+Executing Program
+Follow these steps to run the program:
 
-Token Details:
-Token Name: UNIVERSITY
-Token Abbreviation: UNI
-Total Supply: 0 (Increases with minting)
-Functions:
-mint: This function allows authorized addresses to mint new UNI tokens for a specified address, increasing the total supply.
+Open Remix (https://remix.ethereum.org/).
 
-burn: This function allows authorized addresses to burn (remove) UNI tokens from a specified address, decreasing the total supply.
+Paste the code from this repository into the Remix editor.
 
-License:
-This contract is distributed under the MIT License, granting you the freedom to use, modify, and distribute the code.
+Compile the contract by selecting the Solidity compiler version from the left-hand sidebar and clicking the "Compile" button.
 
-Disclaimer:
-Please exercise caution and properly manage access to the mint and burn functions. This contract is provided for educational purposes and has not been audited for security. Use it at your own risk
+Deploy the contract by navigating to the "Compile and Run" tab and clicking "Deploy" under "UNI."
+
+Interact with the contract by using the mint and burn functions to manage UNI tokens for specific addresses. You can check the total supply using the totalsupply variable.
+
+Help
+If you encounter any issues or have questions, feel free to reach out to the project contributors for assistance.
+
+#Author
+Prasant Kumar
+#License
+This project is licensed under the MIT License. See the LICENSE.md file for details.
